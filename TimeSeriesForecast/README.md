@@ -4,7 +4,7 @@ This project focuses on analyzing and forecasting stock market prices using a va
 
 ## 📊 Dataset
 
-- **Stock:** Yahoo (AABA)
+- **Stock:** stockdata.csv
 - **Duration:** 2006 to 2017
 - **Features:** `Date`, `Open`, `High`, `Low`, `Close`, `Volume`, `Name`
 
