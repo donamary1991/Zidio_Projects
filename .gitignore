@@ -4,12 +4,12 @@ venv310/
 hf_chatbot/venv/
 hf_chatbot/venv310/
 
-# Python cache
+# Python junk
 __pycache__/
 *.pyc
 
-# Ignore log or model files (if needed)
-*.log
+# Large files and checkpoints
 *.pt
 *.pth
 *.h5
+*.log
