@@ -1,0 +1,15 @@
+# Ignore virtual environments
+venv/
+venv310/
+hf_chatbot/venv/
+hf_chatbot/venv310/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore log or model files (if needed)
+*.log
+*.pt
+*.pth
+*.h5
