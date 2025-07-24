@@ -20,13 +20,21 @@ A machine learning-based system to detect fraudulent credit card transactions in
 
 credit_card_fraud_detection/
 ├── data/ # Dataset & SMOTE-balanced data
+
 ├── models/ # Trained model .pkl or .joblib files
+
 ├── kafka_producer.py # Kafka producer sending live transaction data
+
 ├── kafka_consumer.py # Fraud detection consumer
+
 ├── model_training.py # Model training and evaluation
+
 ├── email_alert.py # Sends alerts on fraud detection
+
 ├── Dockerfile # Containerization
+
 ├── requirements.txt # Project dependencies
+
 └── README.md # You're here!
 
 ## Create a virtual environment and install dependencies
