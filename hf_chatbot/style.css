@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Global Body */
+body {
+    background-image: url("https://media.istockphoto.com/id/1477731951/vector/chat-bot-robot-virtual-assistance-artificial-intelligence.jpg?s=612x612&w=0&k=20&c=Hj5qVza99MKKGKdKvF7P7ASQY62P6jxm_LscJ9u0oPc=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* App Background Overlay */
+.stApp {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Title (Main Heading) */
+h1 {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/* Uniform Font Styling */
+h2, h3, h4, h5, h6,
+p, div, span, label, input,
+.stRadio label, .stTextInput label,
+.stMarkdown, .css-1v3fvcr, .css-1d391kg {
+    font-size: 18px !important;
+    color: #ffffff !important;
+}
+
+/* Button Styling - Black Text */
+button, .stButton button {
+    color: black !important;
+    font-weight: bold !important;
+    background-color: rgba(126, 125, 125, 0.85) !important;
+    border-radius: 6px !important;
+    padding: 6px 16px !important;
+}
+
+/* Button Hover */
+.stButton button:hover {
+    background-color: #dddddd !important;
+}
+
+/* Text Inputs */
+input[type="text"], input[type="password"],
+.stTextInput > div > div > input {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: black !important;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+/* Footer */
+footer {
+    font-size: 16px;
+    color: #e0e0e0;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 0;
+}
